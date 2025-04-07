@@ -1,4 +1,4 @@
-# Depression_Portfolio_2024
+# Banking Customer Churn: Analysis and Prediction
 Project: Detection of Depression with Machine Learning and Power-BI-Tools
 
 ### Project Overview
@@ -11,11 +11,8 @@ Significance: It is important for parents, teachers, psycholicist to detect in a
 
 Goal: The aim of th project was to improve standard models, we also consider a simple app to apply the ML-predictor.
 
-## Team Members
+## Author
 
-- Team Member 1: [Jürgen Geiser](https://github.com/juergen-geiser)  
-- Team Member 2: [Carsten Henkel](https://github.com/CarstenHankel)
-- Team Member 3: [Alex Gafron](https://github.com/a-gafron) 
 - Team Member 4: [Marcin Grzymowicz](https://github.com/M-Grzymowicz)
 
 ## Jupyter Notebooks
