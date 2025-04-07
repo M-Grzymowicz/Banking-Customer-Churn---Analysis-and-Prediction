@@ -1,6 +1,6 @@
 /data/raw/*
-!/data/raw/.gitkeep
+!/data/raw/README.md
 /data/processed/*
-!/data/processed/.gitkeep
+!/data/processed/README.md
 /_other_files/
 /notebooks/copy_paste.ipynb
