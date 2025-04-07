@@ -1,15 +1,19 @@
 # Banking Customer Churn: Analysis and Prediction
-Project: Detection of churners among bank customers
+Project: Detecting Customer Churn in Banking
 
 ### Project Overview
-Objective: The goal of the project is to detect customer churn based on different features, e.g., account balance, tenure, estimated salary  etc.
+The goal of this project is to predict customer churn based on various features such as account balance, tenure, estimated salary, and others.
 
-Context: Based on the research data-set, which is given on [Kaggle: Banking Customer Churn Prediction Dataset ](https://www.https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset), I developped a classification model to identify customers which are at risk of leaving the bank. As the finansial data of  bank customers are sensitive, the dataset is not a real world data. It describes hypothetical bank. 
+Based on the dataset provided on [Kaggle: Banking Customer Churn Prediction Dataset  ](https://www.https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset), I developed a classification model to identify customers who are at risk of leaving the bank. Since financial data of bank customers is highly sensitive, the dataset does not reflect real-world data but rather describes a hypothetical bank.
 
-Significance: This kind of prediction models can be very helpful to any financial institutions to keep their clients. As studies referenced by Harward Business Review wskazuja:   *“Acquiring a new customer can cost 5 to 25 times more than retaining an existing one.”* 
+Significance: This type of predictive model can be highly valuable for financial institutions aiming to retain their customers. As highlighted by the Harvard Business Review, 
+
+*“Acquiring a new customer can cost 5 to 25 times more than retaining an existing one.”* 
+
+Customer retention strategies supported by data-driven insights can therefore lead to significant cost savings and improved customer loyalty.
 
 
-Goal: prediction of customer churn
+Goal: To predict customer churn using relevant features and machine learning techniques.
 
 ## Author
 
@@ -17,14 +21,14 @@ Goal: prediction of customer churn
 
 ## Jupyter Notebooks
 
-This project consists of different Jupyter Notebooks that serve different purposes:
+This project includes two Jupyter Notebooks, each serving a distinct purpose:
 
 1. **banking_eda.ipynb**: 
-This notebook focuses on explorative analysis of the dataset, showing statistics, distrihbution of certain features and their correlation to output behaviour (retain /churn). Apart of this analysis the final outcome of the notebook is data cleaning function which will be used in the banking_modeling.ipynb notebook.
+This notebook focuses on exploratory data analysis (EDA) of the dataset, presenting key statistics, feature distributions, and their correlation with the target variable (retained vs. churned customers). In addition to the analysis, the notebook produces a data cleaning function that will be reused in the banking_modeling.ipynb notebook.
 
 
 3. **banking_modelig.ipynb**: 
-This notebook focuses on all possible models, e.g., KNN, logistic regression, random forest, which are applyed to the results of the EDA in previous notebooks. We could derive and optimal model, which is stored in rf_after_grid_search.pkl. 
+This notebook focuses on applying various classification models—such as K-Nearest Neighbors, Logistic Regression, and Random Forest—to the preprocessed data from the previous notebook. After evaluating multiple approaches, the optimal model is identified and saved as rf_after_grid_search.pkl.
 
 
 
@@ -41,17 +45,18 @@ git clone git@github.com:M-Grzymowicz/Banking_Customer_Churn-Analysis_and_Predic
 cd your-repository
 ```
 3. Install the required environment (you will obtain a new environment called: dpp-2501)
-
+```
 conda env create --file environment.yml
-
+```
 4. Activate your environment (dpp-2501):
 ```
 conda activate dpp-2501
-
-or use Visual Code and activate this enviroment
-
 ```
-5. Download the modified dataset and place it in the project directory. The original dataset can be acquired from the link [Kaggle: Banking Customer Churn Prediction Dataset  ](https://www.https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset) and save it to the directory: data/raw
 
-**Note:** If any of the above files are missing, the corresponding functionality may not work as expected.
+or use Visual Code Studio and activate this enviroment.
+
+
+5. Download the original dataset from [Kaggle: Banking Customer Churn Prediction Dataset  ](https://www.https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset) and place it in the project directory under:  **../data/raw**
+
+**Note:** If any of the above files are missing, the corresponding functionality may not work as intended.
 
