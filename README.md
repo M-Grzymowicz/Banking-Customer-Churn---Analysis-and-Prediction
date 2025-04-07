@@ -1,3 +1,5 @@
+![Opis alternatywny obrazu](graphics/churn_3.png)
+
 # Banking Customer Churn: Analysis and Prediction
 Project: Detecting Customer Churn in Banking
 
@@ -9,23 +11,16 @@ Based on the dataset provided on [Kaggle: Banking Customer Churn Prediction Data
 Significance: This type of predictive model can be highly valuable for financial institutions aiming to retain their customers. As highlighted by the Harvard Business Review, 
 
 
-
 ***“Acquiring a new customer can cost 5 to 25 times more than retaining an existing one.”*** 
-
-
 
 Customer retention strategies supported by data-driven insights can therefore lead to significant cost savings and improved customer loyalty.
 
 
-
 **Goal**: To predict customer churn using relevant features and machine learning techniques.
-
 
 ## Author
 
 [Marcin Grzymowicz](https://github.com/M-Grzymowicz)
-
-
 
 ## Jupyter Notebooks
 
@@ -37,13 +32,6 @@ This notebook focuses on exploratory data analysis (EDA) of the dataset, present
 
 3. **banking_modelig.ipynb**: 
 This notebook focuses on applying various classification models—such as K-Nearest Neighbors, Logistic Regression, and Random Forest—to the preprocessed data from the previous notebook. After evaluating multiple approaches, the optimal model is identified and saved as rf_after_grid_search.pkl.
-
-
-
-
-
-
-
 
 ## Installation and Setup using conda and environment.yml
 
