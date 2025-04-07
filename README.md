@@ -8,12 +8,15 @@ Based on the dataset provided on [Kaggle: Banking Customer Churn Prediction Data
 
 Significance: This type of predictive model can be highly valuable for financial institutions aiming to retain their customers. As highlighted by the Harvard Business Review, 
 
+
 *“Acquiring a new customer can cost 5 to 25 times more than retaining an existing one.”* 
+
 
 Customer retention strategies supported by data-driven insights can therefore lead to significant cost savings and improved customer loyalty.
 
 
-Goal: To predict customer churn using relevant features and machine learning techniques.
+
+**Goal**: To predict customer churn using relevant features and machine learning techniques.
 
 ## Author
 
@@ -29,6 +32,8 @@ This notebook focuses on exploratory data analysis (EDA) of the dataset, present
 
 3. **banking_modelig.ipynb**: 
 This notebook focuses on applying various classification models—such as K-Nearest Neighbors, Logistic Regression, and Random Forest—to the preprocessed data from the previous notebook. After evaluating multiple approaches, the optimal model is identified and saved as rf_after_grid_search.pkl.
+
+
 
 
 
@@ -56,7 +61,8 @@ conda activate dpp-2501
 or use Visual Code Studio and activate this enviroment.
 
 
-5. Download the original dataset from [Kaggle: Banking Customer Churn Prediction Dataset  ](https://www.https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset) and place it in the project directory under:  **../data/raw**
+5. Download the original dataset *Churn_Modelling.csv* from [Kaggle: Banking Customer Churn Prediction Dataset  ](https://www.https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset) and place it in the project directory under:  **../data/raw**
+
 
 **Note:** If any of the above files are missing, the corresponding functionality may not work as intended.
 
