@@ -1,7 +1,6 @@
 name: dpp-2501
 channels: 
   - defaults
-#  - conda-forge  # Możesz dodać conda-forge, aby mieć szerszy dostęp do pakietów
 
 dependencies:
   - python=3.12
@@ -14,7 +13,4 @@ dependencies:
   - imbalanced-learn
   - requests
   - sqlalchemy
-  #- pip  # Włączenie obsługi pip w środowisku
-  #- pip:
-  #  - pdpipe==0.0.53  # Instalacja pakietu pdpipe za pomocą pip
   
