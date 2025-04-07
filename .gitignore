@@ -4,3 +4,4 @@
 !/data/processed/README.md
 /_other_files/
 /notebooks/copy_paste.ipynb
+__pycache__/
