@@ -30,7 +30,7 @@ This project includes two Jupyter Notebooks, each serving a distinct purpose:
 This notebook focuses on exploratory data analysis (EDA) of the dataset, presenting key statistics, feature distributions, and their correlation with the target variable (retained vs. churned customers). In addition to the analysis, the notebook produces a data cleaning function that will be reused in the banking_modeling.ipynb notebook.
 
 
-3. **banking_modelig.ipynb**: 
+3. **banking_modeling.ipynb**: 
 This notebook focuses on applying various classification models—such as K-Nearest Neighbors, Logistic Regression, and Random Forest—to the preprocessed data from the previous notebook. After evaluating multiple approaches, the optimal model is identified and saved as rf_after_grid_search.pkl.
 
 ## Installation and Setup using conda and environment.yml
@@ -66,7 +66,7 @@ or use Visual Code Studio and activate this enviroment.
 
 To find the best model parameters, the F1-score was used.   
 This solution ensures a good balance between precision and recall.
-However, depending on the banking strategy, solutions that maximize either recall or precision should also be considered.
+However, depending on the bank strategy, solutions that maximize either recall or precision should also be considered.
 
 Classification report of the best model:
 
