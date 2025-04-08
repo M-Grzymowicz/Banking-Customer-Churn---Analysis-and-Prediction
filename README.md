@@ -62,7 +62,7 @@ or use Visual Code Studio and activate this enviroment.
 
 **Note:** If any of the above files are missing, the corresponding functionality may not work as intended.
 
-### Results
+## Results
 
 To find the best model parameters, the F1-score was used.   
 It was the solution that ensured a good balance between precision and recall.
