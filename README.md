@@ -88,7 +88,7 @@ The best model's predictions capture 68% of actual churners.
 The diagram below, based on the confusion matrix, provides a more intuitive way to evaluate the quality of the model.
 
 
-<img src="results/figures/prediction_reliability.png" width="300"/>
+<img src="results/figures/prediction_reliability.png" width="500"/>
 
 
 
