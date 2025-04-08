@@ -81,12 +81,12 @@ weighted avg       0.85      0.84      0.85      1000
 
 **Interpretation:**
 
-84% of all predictions (for both retainers and cjurners) are correct.  
+84% of all predictions (for both retainers and churners) are correct.  
 58% of predicted churn cases are correct.  
 The best model's predictions capture 68% of actual churners.
 
-The diagram below, based on the confusion matrix, provides a more intuitive way to evaluate the quality of the model.
-
+To provide a more intuitive assessment, you can refer to the diagram below.
+( It is based on the confusion matrix.)
 
 <img src="results/figures/prediction_reliability.png" width="500"/>
 
