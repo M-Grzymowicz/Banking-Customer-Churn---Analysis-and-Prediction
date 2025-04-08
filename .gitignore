@@ -6,5 +6,6 @@ models/*
 !models/grid_search_results/
 !models/grid_search_results/**
 /notebooks/copy_paste.ipynb
+/notebooks/banking.ipynb
 __pycache__/
 /_other_files/
