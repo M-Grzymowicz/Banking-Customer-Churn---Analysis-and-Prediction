@@ -1,4 +1,4 @@
-![Opis alternatywny obrazu](graphics/churn_3.png)
+![project_logo](graphics/churn_3.png)
 
 # Banking Customer Churn: Analysis and Prediction
 Project: Detecting Customer Churn in Banking
@@ -18,7 +18,7 @@ Customer retention strategies supported by data-driven insights can therefore le
 
 **Goal**: To predict customer churn using relevant features and machine learning techniques.
 
-## Author
+### Author
 
 [Marcin Grzymowicz](https://github.com/M-Grzymowicz)
 
@@ -61,4 +61,32 @@ or use Visual Code Studio and activate this enviroment.
 
 
 **Note:** If any of the above files are missing, the corresponding functionality may not work as intended.
+
+### Results
+To find the best model parameters, the F1-score was used.   
+It was the solution that ensured a good balance between precision and recall.
+However, depending on the banking strategy, solutions that maximize either recall or precision should also be considered.
+
+Classification report of the best model:
+
+              precision    recall  f1-score   support
+
+           0       0.92      0.88      0.90       809
+           1       0.58      0.68      0.62       191
+
+    accuracy                           0.84      1000
+   macro avg       0.75      0.78      0.76      1000
+weighted avg       0.85      0.84      0.85      1000
+
+Interpretation:
+
+84% of all predictions (for both retainers and cjurners) are correct.  
+58% of predicted churn cases are correct.  
+The best model's predictions capture 68% of actual churners.
+
+The diagram below, based on the confusion matrix, provides a more intuitive way to evaluate the quality of the model.
+
+![Prediction reliability](graphics/prediction_reliability.png)
+
+
 
