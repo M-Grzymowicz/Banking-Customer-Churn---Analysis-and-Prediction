@@ -70,14 +70,14 @@ However, depending on the banking strategy, solutions that maximize either recal
 
 Classification report of the best model:
 
-              precision    recall  f1-score   support
+                   precision    recall  f1-score   support
 
-           0       0.92      0.88      0.90       809
-           1       0.58      0.68      0.62       191
+                0       0.92      0.88      0.90       809
+                1       0.58      0.68      0.62       191
 
-    accuracy                           0.84      1000
-   macro avg       0.75      0.78      0.76      1000
-weighted avg       0.85      0.84      0.85      1000
+          accuracy                           0.84      1000
+         macro avg       0.75      0.78      0.76      1000
+      weighted avg       0.85      0.84      0.85      1000
 
 
 
