@@ -63,6 +63,7 @@ or use Visual Code Studio and activate this enviroment.
 **Note:** If any of the above files are missing, the corresponding functionality may not work as intended.
 
 ### Results
+
 To find the best model parameters, the F1-score was used.   
 It was the solution that ensured a good balance between precision and recall.
 However, depending on the banking strategy, solutions that maximize either recall or precision should also be considered.
@@ -78,7 +79,7 @@ Classification report of the best model:
    macro avg       0.75      0.78      0.76      1000
 weighted avg       0.85      0.84      0.85      1000
 
-Interpretation:
+**Interpretation:**
 
 84% of all predictions (for both retainers and cjurners) are correct.  
 58% of predicted churn cases are correct.  
