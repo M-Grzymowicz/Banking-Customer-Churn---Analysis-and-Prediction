@@ -92,8 +92,3 @@ To provide a more intuitive assessment, you can refer to the diagram below.
 ( It is based on the confusion matrix.)
 
 <img src="results/figures/prediction_reliability.png" width="500"/>
-
-
-
-
-.
