@@ -65,7 +65,7 @@ or use Visual Code Studio and activate this enviroment.
 ## Results
 
 To find the best model parameters, the F1-score was used.   
-It was the solution that ensured a good balance between precision and recall.
+This solution ensures a good balance between precision and recall.
 However, depending on the banking strategy, solutions that maximize either recall or precision should also be considered.
 
 Classification report of the best model:
@@ -87,7 +87,9 @@ The best model's predictions capture 68% of actual churners.
 
 The diagram below, based on the confusion matrix, provides a more intuitive way to evaluate the quality of the model.
 
-![Prediction reliability](results/figures/prediction_reliability.png)
+
+<img src="results/figures/prediction_reliability.png" width="300"/>
+
 
 
 
